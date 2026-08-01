@@ -1,0 +1,27 @@
+├───📁 dist/
+│   ├───📄 auth.js
+│   ├───📄 db.js
+│   └───📄 index.js
+├───📁 src/
+│   ├───📁 config/
+│   │   └───db.ts
+│   ├───📁 controllers/
+│   │   └───...
+│   ├───📁 data/
+│   │   └───...
+│   ├───📁 middleware/
+│   │   └───...
+│   ├───📁 models/
+│   │   └───...
+│   ├───📁 routes/
+│   │   └───...
+│   ├───📁 types/
+│   │   └───...
+│   ├───📁 utils/
+│   ├───📄 app.ts
+│   └───📄 server.ts
+├───📄 .env
+├───📄 backend.md
+├───📄 package-lock.json
+├───📄 package.json
+└───📄 tsconfig.json
