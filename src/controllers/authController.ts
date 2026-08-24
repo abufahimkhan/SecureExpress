@@ -16,8 +16,8 @@ export const signUp = async (req: Request, res: Response) => {
     });
   }
 
-  const existingUser = users.find((u) => u.email === email);
-
+  const existingUser = users.some((u) => u.email === email);
+    
   if (existingUser) {
     return res.status(400).json({ message: "User already exists" });
   }
