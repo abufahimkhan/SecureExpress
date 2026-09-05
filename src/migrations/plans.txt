@@ -1,0 +1,15 @@
+Database currently looks like this
+
+users
+  │
+  │
+  ▼
+memberships ◄──── roles
+  │
+  │
+  ▼
+properties
+  │
+  │
+  ▼
+flats
